@@ -7,6 +7,7 @@
   "author": "Colin Honigman",
   "license": "MIT",
   "dependencies": {
+    "kadfe-client": "https://github.com/kadnerdz/kadfe-client.git",
     "node-pi-gpio": "^0.1.3"
   }
 }

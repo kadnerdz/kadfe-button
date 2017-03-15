@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/kadnerdz/kadfe-button",
   "author": "Colin Honigman",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-pi-gpio": "^0.1.3"
+  }
 }

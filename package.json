@@ -1,0 +1,9 @@
+{
+  "name": "kadfe-button",
+  "version": "1.0.0",
+  "description": "Coffee button to press",
+  "main": "index.js",
+  "repository": "https://github.com/kadnerdz/kadfe-button",
+  "author": "Colin Honigman",
+  "license": "MIT"
+}

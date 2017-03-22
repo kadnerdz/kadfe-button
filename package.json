@@ -1,13 +1,16 @@
 {
-  "name": "kadfe-button",
-  "version": "1.0.0",
-  "description": "Coffee button to press",
-  "main": "index.js",
-  "repository": "https://github.com/kadnerdz/kadfe-button",
-  "author": "Colin Honigman",
-  "license": "MIT",
-  "dependencies": {
-    "kadfe-client": "https://github.com/kadnerdz/kadfe-client.git",
-    "node-pi-gpio": "^0.1.3"
-  }
+ "name": "kadfe-button",
+ "version": "1.0.0",
+ "description": "Coffee button to press",
+ "main": "index.js",
+ "repository": "https://github.com/kadnerdz/kadfe-button",
+ "author": "Colin Honigman",
+ "license": "MIT",
+ "scripts": {
+  "repl": "node"
+ },
+ "dependencies": {
+  "kadfe-client": "https://github.com/kadnerdz/kadfe-client.git",
+  "rpio": "^0.9.16"
+ }
 }

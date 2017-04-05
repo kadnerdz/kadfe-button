@@ -5,9 +5,10 @@ rpio.open(14, rpio.INPUT, rpio.PULL_DOWN);
 var pressed = false;
 var available = false;
 
+var ws;
 kadfe.openSocket()
     .then((socket) => {
-        socket.on('message', (message) => {
+        ws = socket.on('message', (message) => {
             if (message === 'available'){
                 console.log('Available')
                 available = true;    

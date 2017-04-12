@@ -4,7 +4,7 @@ var button_pin = 4;
 var led_pin = 17;
 rpio.init({mapping: 'gpio'});
 rpio.open(button_pin, rpio.INPUT, rpio.PULL_DOWN);
-rpio.open(led_pin, rpio.OUTPUT, rpio.HIGH);
+rpio.open(led_pin, rpio.OUTPUT, rpio.LOW);
 var pressed = false;
 var available = false;
 

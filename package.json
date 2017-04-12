@@ -7,7 +7,8 @@
  "author": "Colin Honigman",
  "license": "MIT",
  "scripts": {
-  "repl": "node"
+  "repl": "node",
+  "app": "KADFE_HOST=kadfe-server.herokuapp.com KADFE_SSL=true node index.js"
  },
  "dependencies": {
   "kadfe-client": "https://github.com/kadnerdz/kadfe-client.git",
